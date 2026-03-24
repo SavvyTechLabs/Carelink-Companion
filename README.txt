@@ -13,4 +13,4 @@ Usage:
 
 Notes:
 - This portable bundle copies the 
-ode.exe from the builder's machine. If the target Windows lacks the required Visual C++ runtime, the bundled node may not run. In that case, consider using the installer from nodejs.org or request a signed official exe.
+ode.exe from the builder's machine. If the target Windows lacks the required Visual C++ runtime, the bundled node may not run. In that case, consider using the installer from nodejs.org.
