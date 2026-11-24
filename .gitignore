@@ -1,0 +1,9 @@
+node_modules/
+dist/
+staging/
+*.log
+.env
+carelink-logindata.json
+carelink-token*.json
+.DS_Store
+Thumbs.db
