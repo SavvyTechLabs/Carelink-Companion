@@ -13,9 +13,8 @@ package.json                 Dependencies and build scripts
 README.txt                   End-user instructions for the portable bundle
 ```
 
-The `tools/` folder must be committed for the build to work. If the tools load files from
-the Homey app (for example `../lib/carelink/...`), copy those files into this repository too
-and update the paths.
+The tools are self-contained: they only use `axios` (through `tools/axios-shim.js`, so pkg
+bundles the CommonJS build), `node-forge` and `playwright`.
 
 ## Local commands
 
